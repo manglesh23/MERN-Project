@@ -3,6 +3,7 @@ const bcrypt = require("bcrypt");
 const express = require("express");
 const router = express.Router();
 console.log("user:-", User);
+console.log("Testing for Git");
 
 ///Home
 const home = async (req, res) => {
